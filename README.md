@@ -1,24 +1,8 @@
 # salary-calculator
 
-## Project setup
-```
-npm install
-```
+시급을 월급으로 계산하는 사이트
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+iphone SE 3세대 화면을 기준으로 작성되었습니다.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+모바일 화면 (375 x 667 )으로 접속해야합니다. <br>
+https://hubintheroot.github.io/salary-calculator
