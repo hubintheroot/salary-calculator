@@ -60,5 +60,23 @@ export default {
         font-weight: 700;
         font-size: 16px;
         line-height: 19px;
+
+        display: flex;
+        justify-content: space-evenly;
+
+        width: 280px; height: 78px;
+        margin: 12px auto 0;
+        
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+        background-color: #5D6283;
+
     }
+    .left-text {
+            padding-top: 20px;
+            padding-left: 7px;
+        }
+        .right-text {
+            padding-top: 39px;
+        }
 </style>

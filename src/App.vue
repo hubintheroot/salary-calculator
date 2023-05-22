@@ -1,7 +1,6 @@
 <template>
   <app-content/>
   <app-footer/>
-
 </template>
 
 <script>

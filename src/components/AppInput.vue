@@ -37,7 +37,6 @@ export default {
     props: ['minimumWage'],
     methods: {
         passData: function(){
-            // TODO 에밋으로 올리는 곳
             if (this.data.selectedHours != 0 && this.data.selectedDays != 0){
                 this.$emit('passdata', this.data);
             }
@@ -105,13 +104,27 @@ export default {
         .select-container {
             width: 135px; height: 32px;
         }
-        
     }
 
     .input-container > .flex-container {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+    .input-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        width: 280px; height: 220px;
+        margin: 25px auto 0;
+
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 5px;
+    }
+    .select-container {
+        width: 135px; height: 32px;
     }
 
 </style>

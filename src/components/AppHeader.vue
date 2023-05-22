@@ -34,6 +34,12 @@ export default {
     .font-blue {
         color: #1F78FF;
     }
-    
+    .header-container {
+            margin: 17px auto 0;
+            width: 295px; height: 93px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
     
 </style>
