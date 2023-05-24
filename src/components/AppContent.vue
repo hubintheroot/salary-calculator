@@ -11,6 +11,8 @@ import AppInput from './AppInput.vue';
 import AppResult from './AppResult.vue';
 import axios from 'axios'
 
+
+
 export default {
     data: function(){
         return{
@@ -25,7 +27,7 @@ export default {
     },
     created() {
         const thisData = this.data
-        axios.get('https://api.odcloud.kr/api/15068774/v1/uddi:21d816e5-6c44-4e30-903d-e98e30a4f227?page=1&perPage=1&serviceKey=dTQ%2BBF64rfcdDa7k%2FrroqfVGlkDqVZ%2FNgwEYcWRjvySJ7sHqXyS4PRzeG3nr6KnGGzsVK6JLeeVyXeohTBlEKQ%3D%3D')
+        axios.get(process.env.VUE_APP_API_URL)
             .then(function(response){
                 const getData = response.data.data[0]
                 thisData.year = getData.연도
