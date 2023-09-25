@@ -1,15 +1,26 @@
-# salary-calculator
+## 월급 계산기.
+근로시간을 입력받아 주휴수당이 미포함된 월급을 계산하는 월급 계산기.
 
-Applies in South Korea.<br>
-한국에서 적용됩니다.<br>
+<br/>
 
-Sites that calculate hourly wages as monthly salary<br>
-시급을 월급으로 계산하는 사이트<br>
+📅 기간 : 2023. 05. 17 ~ 2023. 05. 24
 
-Created based on iphone SE 3rd generation screen.<br>
-iphone SE 3세대 화면을 기준으로 작성되었습니다.<br>
+<br/>
 
-You need to access it with a mobile screen (375 x 667 ).<br>
-모바일 화면 (375 x 667 )으로 접속해야합니다. <br>
+🔨 Tech
 
-https://hubintheroot.github.io/salary-calculator
+* HTML5
+* CSS3
+* VUE.JS
+
+📋 myWork
+
+* HTML 마크업
+* CSS 스타일링
+* VUE COMPONENT 및 기능 구현
+
+📍 Link
+
+* https://hubintheroot.github.io/salary-calculator/
+<br/>
+<br/>
